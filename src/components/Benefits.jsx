@@ -71,7 +71,7 @@ export default function Benefits() {
         </div>
 
         {/* GRID */}
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
           {/* CARDS */}
           {benefits.map((item, index) => (
@@ -98,7 +98,7 @@ export default function Benefits() {
           ))}
 
           {/* IMAGE CARD */}
-          <div className="col-span-2 bg-[#f2ece7] rounded-[4px] overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.06)] h-[200px] group cursor-pointer">
+          <div className="col-span-1 md:col-span-2 bg-[#f2ece7] rounded-[4px] overflow-hidden shadow-[0_2px_12px_rgba(0,0,0,0.06)] h-[200px] group cursor-pointer">
             <img
               src={benefitsImage}
               alt="Women Who Talk"

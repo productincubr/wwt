@@ -39,14 +39,14 @@ export default function Hero() {
           <img
             src={flower}
             alt=""
-            className="absolute left-[-15px] md:left-[-35px] top-[150px] md:top-[210px] w-[60px] md:w-[90px] z-20 hover:rotate-12 hover:scale-110 transition-all duration-500"
+            className="absolute left-[-15px] md:left-[-55px] top-[150px] md:top-[210px] w-[60px] md:w-[90px] z-20 hover:rotate-12 hover:scale-110 transition-all duration-500"
           />
 
           {/* Main hero image */}
           <img
             src={heroImg}
             alt=""
-            className="w-[95%] lg:w-[100%] max-w-[95%] object-contain relative z-30 hover:scale-[1.02] transition-transform duration-700"
+            className="w-[95%] lg:w-[100%] -left-7 max-w-[95%] object-contain relative z-30 hover:scale-[1.02] transition-transform duration-700"
           />
 
           {/* floating member badge */}
