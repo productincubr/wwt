@@ -47,22 +47,22 @@ export default function Navbar() {
           </a>
 
           {/* Mobile menu icon */}
-          <button 
-            className="lg:hidden flex flex-col gap-[5px] cursor-pointer group p-2 relative z-[60] focus:outline-none"
+          <div 
+            className="lg:hidden flex items-center justify-center cursor-pointer p-2 w-10 h-10 shrink-0 relative z-[60]"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? (
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="#7a2234" className="w-7 h-7">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="#7a2234" className="w-7 h-7 shrink-0">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
             ) : (
-              <>
-                <span className="w-6 h-[2px] bg-[#7a2234] group-hover:bg-[#4a1320] transition-colors duration-300"></span>
-                <span className="w-4 h-[2px] bg-[#7a2234] group-hover:bg-[#4a1320] transition-colors duration-300 ml-auto"></span>
-                <span className="w-6 h-[2px] bg-[#7a2234] group-hover:bg-[#4a1320] transition-colors duration-300"></span>
-              </>
+              <div className="flex flex-col gap-[5px] justify-center w-full h-full items-end">
+                <span className="w-6 h-[2.5px] bg-[#7a2234] rounded-full shrink-0"></span>
+                <span className="w-4 h-[2.5px] bg-[#7a2234] rounded-full shrink-0"></span>
+                <span className="w-6 h-[2.5px] bg-[#7a2234] rounded-full shrink-0"></span>
+              </div>
             )}
-          </button>
+          </div>
         </div>
       </div>
 
