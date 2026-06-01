@@ -4,6 +4,7 @@ import { Link } from "react-scroll";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -46,12 +47,37 @@ export default function Navbar() {
           </a>
 
           {/* Mobile menu icon */}
-          <div className="lg:hidden flex flex-col gap-[5px] cursor-pointer group p-2">
-            <span className="w-6 h-[2px] bg-[#7a2234] group-hover:bg-[#4a1320] transition-colors duration-300"></span>
-            <span className="w-4 h-[2px] bg-[#7a2234] group-hover:bg-[#4a1320] transition-colors duration-300 ml-auto"></span>
-            <span className="w-6 h-[2px] bg-[#7a2234] group-hover:bg-[#4a1320] transition-colors duration-300"></span>
-          </div>
+          <button 
+            className="lg:hidden flex flex-col gap-[5px] cursor-pointer group p-2 relative z-[60] focus:outline-none"
+            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          >
+            {mobileMenuOpen ? (
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="#7a2234" className="w-7 h-7">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+              </svg>
+            ) : (
+              <>
+                <span className="w-6 h-[2px] bg-[#7a2234] group-hover:bg-[#4a1320] transition-colors duration-300"></span>
+                <span className="w-4 h-[2px] bg-[#7a2234] group-hover:bg-[#4a1320] transition-colors duration-300 ml-auto"></span>
+                <span className="w-6 h-[2px] bg-[#7a2234] group-hover:bg-[#4a1320] transition-colors duration-300"></span>
+              </>
+            )}
+          </button>
         </div>
+      </div>
+
+      {/* Mobile Menu Dropdown */}
+      <div 
+        className={`lg:hidden absolute top-full left-0 w-full bg-[#f7f2ed] border-t border-[#e8dcd0] shadow-xl overflow-hidden transition-all duration-300 ease-in-out flex flex-col items-center gap-6 z-40 ${
+          mobileMenuOpen ? "max-h-[400px] py-8 opacity-100" : "max-h-0 py-0 opacity-0 border-transparent"
+        }`}
+      >
+        <a href="#experience" onClick={() => setMobileMenuOpen(false)} className="text-[17px] text-[#7a2234] font-semibold tracking-wide">The Experience</a>
+        <a href="#about" onClick={() => setMobileMenuOpen(false)} className="text-[17px] text-[#7a2234] font-semibold tracking-wide">Philosophy</a>
+        <a href="#curriculum" onClick={() => setMobileMenuOpen(false)} className="text-[17px] text-[#7a2234] font-semibold tracking-wide">Curriculum</a>
+        <a href="#reserve" onClick={() => setMobileMenuOpen(false)} className="bg-[#7a2234] text-white px-8 py-3.5 rounded-full text-sm tracking-wide uppercase font-medium mt-2 shadow-lg">
+          Join the Circle
+        </a>
       </div>
     </nav>
   );
