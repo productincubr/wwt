@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -17,9 +19,9 @@ export default function Navbar() {
     >
       <div className="max-w-[1250px] mx-auto px-5 lg:px-8 flex items-center justify-between">
         {/* Logo */}
-        <h1 className="text-[26px] lg:text-[30px] font-display text-[#7a2234] tracking-wide hover:scale-105 transition-transform cursor-pointer">
+        <a href="/" className="text-[26px] lg:text-[30px] font-display text-[#7a2234] tracking-wide hover:scale-105 transition-transform cursor-pointer">
           WWT
-        </h1>
+        </a>
 
         {/* Center Links */}
         <ul className="hidden lg:flex items-center gap-12 text-[15px] lg:text-[16px] text-[#7a2234] font-semibold tracking-wide">

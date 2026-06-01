@@ -31,20 +31,20 @@ const includes = [
 export default function Reserve() {
   return (
     <section
-      className="bg-[#f7f2ed] py-16 md:py-24 px-5"
+      className="bg-[#f7f2ed] py-12 md:py-16 px-5"
       id="reserve"
     >
       {/* OUTER BORDER CONTAINER */}
-      <div className="max-w-[1220px] mx-auto border border-[#ebe2dc] bg-[#f9f6f3] py-14 px-6 md:py-20 md:px-10">
+      <div className="max-w-[1220px] mx-auto border border-[#ebe2dc] bg-[#f9f6f3] py-14 px-6 md:py-12 md:py-16 md:px-10">
 
         {/* HEADING */}
         <div className="text-center">
 
-          <h2 className="font-display text-[40px] md:text-[58px] leading-none text-[#6f1d30] mb-4">
+          <h2 className="font-display text-[48px] md:text-[64px] leading-none text-[#6f1d30] mb-4">
             Reserve Your Seat
           </h2>
 
-          <h3 className="font-display text-[50px] md:text-[74px] leading-none text-[#8b3044] font-semibold">
+          <h3 className="font-display text-[58px] md:text-[84px] leading-none text-[#8b3044] font-semibold">
             INR 2500
           </h3>
 

@@ -24,14 +24,14 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <section className="bg-[#EFE7DC] py-20">
+    <section className="bg-[#EFE7DC] py-12 md:py-16">
       <div className="max-w-[980px] mx-auto px-6">
 
         {/* FAQ BOX */}
         <div className="px-14 py-16">
 
           {/* HEADING */}
-          <h2 className="text-center font-display text-[52px] text-[#6f1d30] leading-none mb-14">
+          <h2 className="text-center font-display text-[56px] md:text-[64px] text-[#6f1d30] leading-none mb-14">
             FAQ – Women Who Talk
           </h2>
 
@@ -49,7 +49,7 @@ export default function FAQ() {
               >
 
                 {/* QUESTION */}
-                <h3 className="font-display text-[32px] leading-[1.25] text-[#6f1d30] mb-4">
+                <h3 className="font-display text-[38px] md:text-[44px] leading-[1.25] text-[#6f1d30] mb-4">
                   {faq.question}
                 </h3>
 

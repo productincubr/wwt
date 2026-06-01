@@ -9,52 +9,49 @@ export default function Hero() {
       <div className="max-w-[1250px] mx-auto px-5 md:px-8 grid lg:grid-cols-[46%_54%] gap-10 items-center relative z-10">
 
         {/* LEFT PANEL */}
-        <div className="bg-[#f3ece7] rounded-[30px] px-8 py-12 md:px-12 md:py-16 min-h-[500px] md:h-[600px] flex flex-col justify-center relative">
-          <p className="text-[13px] md:text-[15px] uppercase tracking-[3px] text-[#b25b67] mb-6 md:mb-8">
+        <div className="bg-[#e2e1e0] rounded-[30px] px-8 py-12 md:px-12 md:py-16 min-h-[500px] md:h-[600px] flex flex-col justify-center relative shadow-[0_10px_40px_rgba(0,0,0,0.02)]">
+          <p className="text-[14px] italic font-semibold text-[#D37F7E] mb-6">
             Limited to 12 seats per circle
           </p>
 
-          <h1 className="font-display text-[42px] md:text-[53px] leading-[1.1] md:leading-[1.08] text-[#6f1d30] font-light">
-            Where Conversations
+          <h1 className="font-serif text-[48px] md:text-[50px] leading-[1.1] text-[#6B2D35]">
+            Where Women Connect
             <br />
-            Have Depth And So
-            <br />
-            <span className="italic text-[#b25b67]">Do You</span>
+            Beyond <span className="text-[#D37F7E]">Small Talk</span>
           </h1>
 
-          <p className="mt-6 md:mt-8 text-[16px] md:text-[18px] text-[#746d69] leading-relaxed max-w-[430px]">
-            A curated space for women who think deeply, speak freely,
-            and seek conversations that truly matter.
+          <p className="mt-6 md:mt-8 text-[16px] md:text-[18px] text-[#817874] italic leading-relaxed max-w-[430px]">
+            Join intimate circles designed for meaningful conversations, personal growth, and genuine friendships.
           </p>
 
-          <button className="mt-8 md:mt-10 bg-[#7a2234] text-white px-8 py-4 rounded-full w-fit tracking-wider text-sm hover:bg-[#631c2a] hover:-translate-y-1 hover:shadow-[0_10px_20px_rgba(122,34,52,0.3)] transition-all duration-300">
-            APPLY TO JOIN THE CIRCLE
+          <button className="mt-8 md:mt-10 bg-[#6B2D35] text-white px-8 py-3.5 rounded-[24px] w-fit uppercase tracking-widest text-[12px] font-medium hover:bg-[#522127] hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
+            RESERVE YOUR SEAT
           </button>
         </div>
 
         {/* RIGHT VISUAL */}
         <div className="relative h-[400px] md:h-[560px] flex items-center justify-center lg:translate-x-4 mt-8 lg:mt-0">
           
-          {/* center flower divider */}
-          <img
-            src={flower}
-            alt=""
-            className="absolute left-[-15px] md:left-[-55px] top-[150px] md:top-[210px] w-[60px] md:w-[90px] z-20 hover:rotate-12 hover:scale-110 transition-all duration-500"
-          />
-
           {/* Main hero image */}
           <img
             src={heroImg}
-            alt=""
-            className="w-[95%] lg:w-[100%] -left-7 max-w-[95%] object-contain relative z-30 hover:scale-[1.02] transition-transform duration-700"
+            alt="Hero Visual"
+            className="w-[95%] lg:w-[100%] md:-left-7 max-w-[95%] object-contain relative z-30 hover:scale-[1.02] transition-transform duration-700"
           />
 
-          {/* floating member badge */}
-          <img
-            src={memberBadge}
-            alt=""
-            className="absolute left-0 md:left-[10px] bottom-[30px] md:bottom-[80px] w-[140px] md:w-[200px] z-30 shadow-[0_20px_50px_rgba(0,0,0,0.15)] hover:-translate-y-3 hover:scale-105 transition-all duration-500"
-          />
+          {/* New Member Badge HTML */}
+          <div className="absolute left-[-20px] md:left-[-40px] bottom-[30px] md:bottom-[70px] bg-[#Fdf8f6] rounded-2xl p-5 shadow-[0_20px_40px_rgba(0,0,0,0.08)] z-40 flex flex-col gap-3 min-w-[220px]">
+            <div className="flex -space-x-3">
+              <img src="https://i.pravatar.cc/100?img=5" className="w-10 h-10 rounded-full border-[3px] border-[#Fdf8f6] object-cover" alt="avatar" />
+              <img src="https://i.pravatar.cc/100?img=9" className="w-10 h-10 rounded-full border-[3px] border-[#Fdf8f6] object-cover" alt="avatar" />
+              <img src="https://i.pravatar.cc/100?img=1" className="w-10 h-10 rounded-full border-[3px] border-[#Fdf8f6] object-cover" alt="avatar" />
+              <div className="w-10 h-10 rounded-full border-[3px] border-[#Fdf8f6] bg-[#6B2D35] text-white text-[11px] font-bold flex items-center justify-center">+7</div>
+            </div>
+            <div>
+              <p className="text-[#817874] text-[12px] font-medium">Curated. Intentional. Impactful.</p>
+              <p className="text-[#817874] text-[12px]">For women, by women.</p>
+            </div>
+          </div>
         </div>
       </div>
 

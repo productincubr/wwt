@@ -3,7 +3,7 @@ import waveBottom from "../assets/images/hero-layer-image.png";
 
 export default function FinalCTA() {
   return (
-    <section className="bg-[#f7f2ed] relative overflow-hidden py-28">
+    <section className="bg-[#f7f2ed] relative overflow-hidden py-16 md:py-12 md:py-16">
 
       {/* TOP WAVE */}
       <img
@@ -53,7 +53,7 @@ export default function FinalCTA() {
         <div className="flex justify-center mt-16">
           <a
             href="#"
-            className="font-display text-[38px] text-[#7b2c40] border-b border-[#7b2c40] pb-1 hover:opacity-70 transition-all duration-300"
+            className="font-display text-[44px] md:text-[52px] text-[#7b2c40] border-b border-[#7b2c40] pb-1 hover:opacity-70 transition-all duration-300"
           >
             Apply to Join the Circle
           </a>

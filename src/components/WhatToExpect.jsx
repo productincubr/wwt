@@ -50,14 +50,14 @@ const steps = [
 export default function WhatToExpect() {
   return (
     <section
-      className="bg-[#f7f2ed] py-16 md:py-24 overflow-hidden"
+      className="bg-[#f7f2ed] py-12 md:py-16 overflow-hidden"
       id="experience"
     >
       <div className="max-w-[1220px] mx-auto px-5 md:px-8">
 
         {/* TOP HEADING */}
         <div className="text-center mb-16 md:mb-20">
-          <p className="text-[20px] md:text-[24px] text-[#521625] mb-4">
+          <p className="text-[20px] md:text-[36px] text-[#521625] mb-6">
             What to Expect at a WWT Circle Meet
           </p>
 

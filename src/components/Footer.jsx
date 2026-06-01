@@ -1,11 +1,11 @@
 export default function Footer() {
   return (
-    <footer className="bg-[#EFE7DC] border-t border-[#e7ddd7] py-10">
+    <footer className="bg-[#EFE7DC] border-t border-[#e7ddd7] py-6 md:py-10">
       <div className="max-w-[1280px] mx-auto px-8 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-0 text-center md:text-left">
 
         {/* LEFT LOGO */}
         <div>
-          <h3 className="font-display text-[28px] text-[#2f2623]">
+          <h3 className="font-display text-[32px] md:text-[40px] text-[#2f2623]">
             Women Who Talk.
           </h3>
         </div>
