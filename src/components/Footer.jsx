@@ -12,7 +12,7 @@ export default function Footer() {
 
         {/* CENTER COPYRIGHT */}
         <div>
-          <p className="text-[13px] text-[#938a84] tracking-[0.3px]">
+          <p className="text-[15px] text-[#938a84] tracking-[0.3px]">
             © 2024 Women Who Talk. A space for substance.
           </p>
         </div>

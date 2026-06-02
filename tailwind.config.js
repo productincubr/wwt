@@ -24,6 +24,10 @@ export default {
     fontFamily: {
       'display': ['Cormorant Garamond', 'Georgia', 'serif'],
       'body': ['Jost', 'system-ui', 'sans-serif'],
+      'serif': ['Playfair Display', 'Georgia', 'serif'],
+      'playfair': ['Playfair Display', 'Georgia', 'serif'],
+      'inter' : ["Inter", "sans-serif"],
+      'dancing': ['"Dancing Script"', "cursive"],
     },
     extend: {
       fontSize: {

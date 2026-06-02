@@ -36,13 +36,12 @@ const features = [
 
 export default function HostCircleSection() {
   return (
-    <section className="bg-[#F8F2F0] py-24 lg:py-32 overflow-hidden">
+    <section className="bg-[#F8F2F0] py-24 lg:py-24 overflow-hidden">
       <div className="max-w-[1320px] mx-auto px-6 md:px-10 lg:px-16">
         <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-16 xl:gap-24 items-center">
           {/* LEFT SIDE */}
           <div className="relative">
             {/* Decorative Circle */}
-            <div className="absolute -left-32 bottom-[-120px] w-[260px] h-[260px] rounded-full bg-[#EEE3E0] opacity-80 pointer-events-none" />
 
             {/* Top Label */}
             <div className="flex items-center gap-4 mb-5">
@@ -111,7 +110,7 @@ export default function HostCircleSection() {
             <button
               className="
                 mt-10
-                bg-[#6D2433]
+                bg-[#5D1F29]
                 hover:bg-[#5D1E2B]
                 text-white
                 px-8
@@ -131,7 +130,7 @@ export default function HostCircleSection() {
             </button>
 
             {/* Bottom Text */}
-            <p className="mt-10 italic text-[#C1979D] text-[22px] font-serif">
+            <p className="mt-10 italic text-[#5D1F29] text-[22px] font-serif">
               Be the reason someone finds her people ♡
             </p>
           </div>
@@ -151,11 +150,12 @@ export default function HostCircleSection() {
                 left-1/2
                 bottom-5
                 -translate-x-1/2
-                w-[88%]
+                w-[86%]
                 bg-[#FFFDFC]
-                rounded-[24px]
-                shadow-[0_20px_50px_rgba(0,0,0,0.12)]
-                p-8
+                rounded-[30px]
+                border
+                border-[#EFE7E4]
+                p-10
               "
             >
               {/* Location Badge */}
@@ -168,11 +168,11 @@ export default function HostCircleSection() {
                 </div>
               </div>
 
-              <h3 className="text-center text-[#6D2433] text-[42px] font-serif leading-none">
+              <h3 className="text-center text-[#6D2433] text-[30px] font-playfair leading-none">
                 Host a Circle in Your City
               </h3>
 
-              <p className="text-center text-[#7A726E] mt-5 leading-7 max-w-[500px] mx-auto">
+              <p className="text-center font-inter regular text-[13px] text-[#4A4A4A] mt-5 leading-7 max-w-[500px] mx-auto">
                 From Mumbai to Melbourne, New York to Nairobi —
                 let's create a world where every woman has a circle.
               </p>
@@ -184,19 +184,19 @@ export default function HostCircleSection() {
                     className="text-[#8D6670] shrink-0 mt-1"
                   />
 
-                  <p className="text-[12px] text-[#807875] leading-5 max-w-[250px]">
+                  <p className="text-[11px] text-[#807875] leading-5 max-w-[300px]">
                     Join a global movement of women creating
                     real connections and lasting change.
                   </p>
                 </div>
 
-                <div className="text-right">
-                  <p className="italic font-serif text-[#A97880] text-[22px] leading-6">
+                <div className="text-right min-w-[120px]">
+                  <p className="italic font-playfair text-[#5D1F29] text-[23px] leading-[1.1]">
                     Together,
                   </p>
 
-                  <p className="italic font-serif text-[#A97880] text-[22px] leading-6">
-                    we grow ♡
+                  <p className="italic font-playfair text-[#5D1F29] text-[23px] leading-[1.1]">
+                    we <br></br> grow ♡
                   </p>
                 </div>
               </div>

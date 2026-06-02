@@ -35,7 +35,7 @@ export default function Reserve() {
       id="reserve"
     >
       {/* OUTER BORDER CONTAINER */}
-      <div className="max-w-[1220px] mx-auto border border-[#ebe2dc] bg-[#f9f6f3] py-14 px-6 md:py-12 md:py-16 md:px-10">
+      <div className="max-w-[1220px] mx-auto border border-[#ebe2dc] bg-[#f9f6f3] py-14 px-6 md:py-16 md:px-10">
 
         {/* HEADING */}
         <div className="text-center">
@@ -73,8 +73,7 @@ export default function Reserve() {
             >
 
               {/* ICON */}
-              <div className="text-[#8a3245] text-[18px] mt-[2px] group-hover:scale-110 group-hover:rotate-12 transition-transform duration-300">
-                {item.icon}
+              <div className="text-[#8a3245] text-[18px] mt-[2px] opacity-0 overflow-hidden w-0 h-0 hidden group-hover:scale-110 group-hover:rotate-12 transition-transform duration-300">
               </div>
 
               {/* TEXT */}

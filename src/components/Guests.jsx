@@ -43,11 +43,11 @@ export default function Guests() {
         {/* Heading */}
 
         <div className="text-center mb-16">
-          <span className="uppercase tracking-[4px] text-[#8f6a69] text-xs">
+          <span className="uppercase tracking-[4px] text-[#5A1E2A] text-[12px] font-inter medium">
             Meet Our
           </span>
 
-          <h2 className="mt-4 text-[58px] leading-none font-serif text-[#6B2D35]">
+          <h2 className="mt-4 text-[58px] font-playfair regular leading-none font-serif text-[#5A1E2A]">
             Guest Speakers
           </h2>
 
@@ -115,15 +115,15 @@ export default function Guests() {
                     />
                   </div>
 
-                  <h3 className="text-[#6B2D35] text-[22px] font-serif">
+                  <h3 className="text-[#5A1E2A] text-[22px] font-playfair regular">
                     {speaker.name}
                   </h3>
 
-                  <p className="italic text-[#C78382] mt-2 text-sm">
+                  <p className="italic text-[#C07C84] font-playfair  mt-2 text-sm">
                     {speaker.title}
                   </p>
 
-                  <p className="text-[#817874] text-sm mt-4 leading-6 min-h-[60px]">
+                  <p className="text-[#6B7280] text-sm mt-4 font-inter regular leading-6 min-h-[60px]">
                     {speaker.desc}
                   </p>
 

@@ -40,14 +40,14 @@ export default function Intro() {
         {/* LEFT CONTENT */}
         <div className="relative">
 
-          <h2 className="font-display text-[48px] md:text-[64px] leading-[1.1] md:leading-[1.08] text-[#6f1d30] font-light max-w-[680px]">
+          <h2 className="font-playfair text-[42px] md:text-[55px] leading-[1.1] md:leading-[1.08] text-[#6f1d30]  max-w-[680px]">
             In a world full of conversations,{" "}
             <span className="italic text-[#b25b67]">very</span>
             <br />
             <span className="italic text-[#b25b67]">few are real.</span>
           </h2>
 
-          <p className="mt-5 md:mt-7 text-[14px] md:text-[15px] text-[#6d6662] leading-[1.8] md:leading-[1.9] max-w-[520px]">
+          <p className="mt-5 md:mt-7 text-[14px] md:text-[15px] font-inter regular text-[#6d6662] leading-[1.8] md:leading-[1.9] max-w-[520px]">
             We've mastered the art of gathering—but somewhere along the way we stopped truly connecting.
             We smile, we nod, we pose... and we leave without ever being seen.
             Women Who Talk was created to change that. This is not another table of polite chatter and predictable conversations.
@@ -62,11 +62,11 @@ export default function Intro() {
                   {item.icon}
                 </div>
 
-                <h3 className="font-display text-[21px] md:text-[23px] text-[#5f2b38] mb-2 group-hover:text-[#8a3245] transition-colors duration-300">
+                <h3 className="font-inter medium text-[21px] md:text-[23px] text-[#5f2b38] mb-2 group-hover:text-[#8a3245] transition-colors duration-300">
                   {item.title}
                 </h3>
 
-                <p className="text-[13px] md:text-[14px] leading-[1.8] text-[#6f6965] max-w-[510px]">
+                <p className="text-[13px] font-inter regular md:text-[14px] leading-[1.8] text-[#6f6965] max-w-[510px]">
                   {item.body}
                 </p>
               </div>

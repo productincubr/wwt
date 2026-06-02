@@ -10,17 +10,17 @@ export default function Hero() {
 
         {/* LEFT PANEL */}
         <div className="bg-[#e2e1e0] rounded-[30px] px-8 py-12 md:px-12 md:py-16 min-h-[500px] md:h-[600px] flex flex-col justify-center relative shadow-[0_10px_40px_rgba(0,0,0,0.02)]">
-          <p className="text-[14px] italic font-semibold text-[#D37F7E] mb-6">
+          <p className="text-[16px] italic font-inter  text-[#910000] mb-6">
             Limited to 12 seats per circle
           </p>
 
-          <h1 className="font-serif text-[48px] md:text-[50px] leading-[1.1] text-[#6B2D35]">
+          <h1 className="regular font-playfair  text-[44px] md:text-[50px] leading-[1.1] text-[#6B2D35]">
             Where Women Connect
             <br />
-            Beyond <span className="text-[#D37F7E]">Small Talk</span>
+            Beyond <span className="text-[#C93155]">Small Talk</span>
           </h1>
 
-          <p className="mt-6 md:mt-8 text-[16px] md:text-[18px] text-[#817874] italic leading-relaxed max-w-[430px]">
+          <p className="mt-6 md:mt-8 text-[16px] md:text-[18px] text-[#635E55] font-inter italic leading-relaxed max-w-[430px]">
             Join intimate circles designed for meaningful conversations, personal growth, and genuine friendships.
           </p>
 

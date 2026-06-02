@@ -9,7 +9,7 @@ export default function PartnersSponsorsSection() {
         <span className="uppercase tracking-[4px] text-[#A87676] text-xs font-semibold block mb-4">
           Trusted By
         </span>
-        <h2 className="text-[48px] md:text-[56px] leading-tight font-serif text-[#6B2D35] mb-6">
+        <h2 className="text-[48px] md:text-[56px] leading-tight regular font-playfair text-[#6B2D35] mb-6">
           Amazing Partners & Sponsors
         </h2>
         <p className="max-w-[600px] mx-auto text-[#817874] text-[16px] mb-12">

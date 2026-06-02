@@ -60,7 +60,7 @@ export default function Benefits() {
       <div className="max-w-[1220px] mx-auto px-8">
 
         {/* TOP HEADING */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16 font-playfair regular">
           <span className="text-[18px] text-[#521625] tracking-wide lowercase">
             benefits
           </span>

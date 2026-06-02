@@ -57,11 +57,11 @@ export default function WhatToExpect() {
 
         {/* TOP HEADING */}
         <div className="text-center mb-16 md:mb-20">
-          <p className="text-[20px] md:text-[36px] text-[#521625] mb-6">
+          <p className="text-[20px] font-playfair regular md:text-[36px] text-[#521625] mb-6">
             What to Expect at a WWT Circle Meet
           </p>
 
-          <p className="text-[16px] md:text-[20px] text-[#635E55] max-w-[580px] mx-auto leading-[1.8] md:leading-[1.9]">
+          <p className="text-[16px] md:text-[18px] font-inter regular text-[#635E55] max-w-[580px] mx-auto leading-[1.8] md:leading-[1.9]">
             Every Women Who Talk gathering is thoughtfully designed to be immersive,
             meaningful, and deeply engaging—from the first moment to the last.
           </p>
@@ -82,11 +82,11 @@ export default function WhatToExpect() {
                 </span>
 
                 <div>
-                  <h3 className="font-display text-[22px] md:text-[24px] text-[#521625] leading-none mb-3 md:mb-4">
+                  <h3 className="font-display regular text-[22px] md:text-[24px] text-[#521625] leading-none mb-3 md:mb-4">
                     Hors d'oeuvres & Intentional Introductions
                   </h3>
 
-                  <p className="text-[13px] md:text-[14px] leading-[1.8] md:leading-[1.9] font-semibold text-[#635E55] max-w-[620px]">
+                  <p className="text-[13px] font-inter regular md:text-[14px] leading-[1.8] md:leading-[1.9] font-semibold text-[#635E55] max-w-[620px]">
                     We begin with a curated selection of hors d'oeuvres,
                     creating a relaxed space to ease into the evening.
                     Introductions here go beyond the usual—this is your first
@@ -140,7 +140,7 @@ export default function WhatToExpect() {
                   </span>
 
                   <div>
-                    <h3 className="font-display text-[22px] md:text-[24px] text-[#521625] leading-none mb-3 md:mb-4 group-hover:translate-x-2 transition-transform duration-300">
+                    <h3 className="font-inter regular text-[22px] md:text-[24px] text-[#521625] leading-none mb-3 md:mb-4 group-hover:translate-x-2 transition-transform duration-300">
                       {item.title}
                     </h3>
 

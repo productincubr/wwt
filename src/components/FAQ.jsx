@@ -31,7 +31,7 @@ export default function FAQ() {
         <div className="px-14 py-16">
 
           {/* HEADING */}
-          <h2 className="text-center font-display text-[56px] md:text-[64px] text-[#6f1d30] leading-none mb-14">
+          <h2 className="text-center font-playfair regular text-[56px] md:text-[60px] text-[#521625] leading-none mb-14">
             FAQ – Women Who Talk
           </h2>
 
