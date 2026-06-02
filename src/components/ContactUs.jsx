@@ -139,7 +139,7 @@ import {
   
               {/* RIGHT CONTENT */}
   
-              <div className="lg:pl-6">
+              <div className="lg:pl-10">
                 <h3 className="text-[#7A4B55] text-[42px] leading-none font-serif">
                   Let's Start a
                   <br />

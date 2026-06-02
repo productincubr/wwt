@@ -9,7 +9,7 @@ export default function Hero() {
       <div className="max-w-[1250px] mx-auto px-5 md:px-8 grid lg:grid-cols-[46%_54%] gap-10 items-center relative z-10">
 
         {/* LEFT PANEL */}
-        <div className="bg-[#e2e1e0] rounded-[30px] px-8 py-12 md:px-12 md:py-16 min-h-[500px] md:h-[600px] flex flex-col justify-center relative shadow-[0_10px_40px_rgba(0,0,0,0.02)]">
+        <div className="bg-[#ece6e6] rounded-[30px] px-8 py-12 md:px-12 md:py-16 min-h-[500px] md:h-[600px] flex flex-col justify-center relative shadow-[0_10px_40px_rgba(0,0,0,0.02)]">
           <p className="text-[16px] italic font-inter  text-[#910000] mb-6">
             Limited to 12 seats per circle
           </p>

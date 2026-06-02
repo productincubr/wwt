@@ -28,6 +28,7 @@ export default {
       'playfair': ['Playfair Display', 'Georgia', 'serif'],
       'inter' : ["Inter", "sans-serif"],
       'dancing': ['"Dancing Script"', "cursive"],
+      'dmSerif': ['"DM Serif Display"', "serif"],
     },
     extend: {
       fontSize: {
