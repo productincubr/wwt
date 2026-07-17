@@ -2,10 +2,10 @@ import { Users, Heart } from "lucide-react";
 
 const circleCards = [
     [
-        "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600",
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600",
-        "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600",
-        "https://images.unsplash.com/photo-1511988617509-a57c8a288659?w=600",
+        "https://i.pinimg.com/control1/736x/61/89/fe/6189fe7b38b63df20c94ed04c80af81d.jpg",
+        "https://i.pinimg.com/736x/c4/0a/91/c40a9162e83ed0b583d41ae8f9bba444.jpg",
+        "https://i.pinimg.com/736x/64/69/61/6469615f036aef58572d99120f1a4269.jpg",
+        "https://i.pinimg.com/736x/fd/55/15/fd551585782881ab27c468719fdecabf.jpg",
     ],
     [
         "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600",
@@ -14,29 +14,28 @@ const circleCards = [
         "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600",
     ],
     [
-        "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600",
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600",
-        "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=600",
-        "https://images.unsplash.com/photo-1520813792240-56fc4a3765a7?w=600",
+        "https://i.pinimg.com/236x/c9/28/5f/c9285fa4c36dbf41580adb2affb60959.jpg",
+        "https://i.pinimg.com/236x/c9/28/5f/c9285fa4c36dbf41580adb2affb60959.jpg",
+        "https://i.pinimg.com/236x/c9/28/5f/c9285fa4c36dbf41580adb2affb60959.jpg",
+        "https://i.pinimg.com/236x/c9/28/5f/c9285fa4c36dbf41580adb2affb60959.jpg",
     ],
     [
-        "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=600",
-        "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600",
-        "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600",
-        "https://images.unsplash.com/photo-1511988617509-a57c8a288659?w=600",
-
+        "https://i.pinimg.com/736x/97/14/cb/9714cb79cdea70a30e438e954627dfd9.jpg",
+        "https://i.pinimg.com/736x/97/14/cb/9714cb79cdea70a30e438e954627dfd9.jpg",
+        "https://i.pinimg.com/736x/97/14/cb/9714cb79cdea70a30e438e954627dfd9.jpg",
+        "https://i.pinimg.com/736x/97/14/cb/9714cb79cdea70a30e438e954627dfd9.jpg",
     ],
     [
-        "https://images.unsplash.com/photo-1511988617509-a57c8a288659?w=600",
-        "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=600",
-        "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600",
-        "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=600",
+        "https://i.pinimg.com/736x/3a/10/5e/3a105e896498b6319384fa63bfc62430.jpg",
+        "https://i.pinimg.com/736x/3a/10/5e/3a105e896498b6319384fa63bfc62430.jpg",
+        "https://i.pinimg.com/736x/3a/10/5e/3a105e896498b6319384fa63bfc62430.jpg",
+        "https://i.pinimg.com/736x/3a/10/5e/3a105e896498b6319384fa63bfc62430.jpg",
     ],
     [
-        "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600",
-        "https://images.unsplash.com/photo-1515169067868-5387ec356754?w=600",
-        "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=600",
-        "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=600",
+        "https://i.pinimg.com/736x/86/85/76/8685764a41a6fcbeb841b6d5a1eed5a7.jpg",
+        "https://i.pinimg.com/736x/86/85/76/8685764a41a6fcbeb841b6d5a1eed5a7.jpg",
+        "https://i.pinimg.com/736x/86/85/76/8685764a41a6fcbeb841b6d5a1eed5a7.jpg",
+        "https://i.pinimg.com/736x/86/85/76/8685764a41a6fcbeb841b6d5a1eed5a7.jpg",
     ],
 
 

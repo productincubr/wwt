@@ -61,7 +61,7 @@ export default function Benefits() {
 
         {/* TOP HEADING */}
         <div className="text-center mb-16 font-playfair regular">
-          <span className="text-[18px] text-[#521625] tracking-wide lowercase">
+          <span className="text-[20px] text-[#521625] tracking-wide lowercase">
             benefits
           </span>
 
@@ -81,17 +81,17 @@ export default function Benefits() {
             >
 
               {/* ICON */}
-              <div className="text-[#7d2b3e] text-[24px] mb-5 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
+              <div className="text-[#7d2b3e] text-[26px] mb-5 group-hover:scale-110 group-hover:rotate-3 transition-transform duration-300">
                 {item.icon}
               </div>
 
               {/* TITLE */}
-              <h3 className="text-[13px] tracking-[0.8px] font-semibold text-[#3e312d] uppercase leading-[1.5] mb-3 group-hover:text-[#7d2b3e] transition-colors duration-300">
+              <h3 className="text-[17px] tracking-[0.8px] font-semibold text-[#3e312d] uppercase leading-[1.5] mb-3 group-hover:text-[#7d2b3e] transition-colors duration-300">
                 {item.title}
               </h3>
 
               {/* BODY */}
-              <p className="text-[14px] leading-[1.8] text-[#6e6763]">
+              <p className="text-[16px] leading-[1.8] text-[#6e6763]">
                 {item.body}
               </p>
             </div>

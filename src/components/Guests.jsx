@@ -52,8 +52,9 @@ export default function Guests() {
           </h2>
 
           <p className="max-w-[700px] mx-auto mt-5 text-[#857A76] text-[15px]">
-            We bring inspiring voices and thought leaders who empower,
-            guide and spark meaningful conversations.
+            P.S. It's not a seminar!
+
+            Just a 10-minute power-packed opening talk by a woman of substance to kick-start the conversation and keep it flowing.
           </p>
         </div>
 
@@ -115,15 +116,15 @@ export default function Guests() {
                     />
                   </div>
 
-                  <h3 className="text-[#5A1E2A] text-[22px] font-playfair regular">
+                  <h3 className="text-[#5A1E2A] text-[24px] font-playfair regular">
                     {speaker.name}
                   </h3>
 
-                  <p className="italic text-[#C07C84] font-playfair  mt-2 text-sm">
+                  <p className="italic text-[#C07C84] font-playfair  mt-2 text-lg">
                     {speaker.title}
                   </p>
 
-                  <p className="text-[#6B7280] text-sm mt-4 font-inter regular leading-6 min-h-[60px]">
+                  <p className="text-[#6B7280] text-lg mt-4 font-inter regular leading-6 min-h-[60px]">
                     {speaker.desc}
                   </p>
 

@@ -20,7 +20,7 @@ import {
     ];
   
     return (
-      <section className="bg-[#F8F2F0] py-24">
+      <section id="contact" className="bg-[#F8F2F0] py-24 scroll-mt-24 lg:scroll-mt-28">
         <div className="max-w-[1320px] mx-auto px-6 lg:px-10">
           {/* Header */}
   

@@ -11,12 +11,12 @@ const pillars = [
   },
   {
     icon: <FiUsers size={15} />,
-    title: "women of substance",
+    title: "Women of substance",
     body: "WWT brings together women of substance—the bold, the curious, the self-aware—women who are not silent spectators of life, but active participants in it.",
   },
   {
     icon: <FiHeart size={15} />,
-    title: "intentional gathering",
+    title: "Intentional gathering",
     body: "Every gathering is intentional. From gourmet experiences to thoughtfully curated themes, everything is designed to spark conversations that matter—the kind that stay with you long after the evening ends. And to preserve that depth, every detail is designed with purpose.",
   },
   {
@@ -34,20 +34,20 @@ const pillars = [
 
 export default function Intro() {
   return (
-    <section className="bg-[#f7f2ed] py-12 md:py-16 overflow-hidden relative" id="about">
-      <div className="max-w-[1250px] mx-auto px-5 md:px-8 grid lg:grid-cols-[57%_43%] gap-12 md:gap-6 items-start">
+    <section className="bg-[#f7f2ed] py-12 md:py-16 overflow-hidden relative scroll-mt-24 lg:scroll-mt-28" id="about">
+      <div className="max-w-[1250px] mx-auto px-5 md:px-9 grid lg:grid-cols-[57%_43%] gap-12 md:gap-6 items-start">
 
         {/* LEFT CONTENT */}
         <div className="relative">
 
-          <h2 className="font-playfair text-[42px] md:text-[55px] leading-[1.1] md:leading-[1.08] text-[#6f1d30]  max-w-[680px]">
+          <h2 className="font-playfair text-[42px] md:text-[58px] leading-[1.1] md:leading-[1.08] text-[#6f1d30]  max-w-[680px]">
             In a world full of conversations,{" "}
             <span className="italic text-[#b25b67]">very</span>
             <br />
             <span className="italic text-[#b25b67]">few are real.</span>
           </h2>
 
-          <p className="mt-5 md:mt-7 text-[14px] md:text-[15px] font-inter regular text-[#6d6662] leading-[1.8] md:leading-[1.9] max-w-[520px]">
+          <p className="mt-5 md:mt-7 text-[14px] md:text-[18px] font-inter regular text-[#6d6662] leading-[1.8] md:leading-[1.9] max-w-[520px]">
             We've mastered the art of gathering—but somewhere along the way we stopped truly connecting.
             We smile, we nod, we pose... and we leave without ever being seen.
             Women Who Talk was created to change that. This is not another table of polite chatter and predictable conversations.
@@ -58,15 +58,15 @@ export default function Intro() {
           <div className="mt-10 relative pl-10 before:absolute before:left-[11px] before:top-0 before:bottom-0 before:w-px before:bg-[#d8c7bf]">
             {pillars.map((item, i) => (
               <div key={i} className="relative mb-10 group">
-                <div className="absolute -left-11 top-1 w-8 h-8 rounded-full border border-[#c7aaaa] bg-[#f7f2ed] flex items-center justify-center text-[#8a3245] text-[10px] group-hover:bg-[#8a3245] group-hover:text-white transition-colors duration-300">
+                <div className="absolute -left-11 top-1 w-8 h-8 rounded-full border border-[#c7aaaa] bg-[#f7f2ed] flex items-center justify-center text-[#8a3245] text-[11px] group-hover:bg-[#8a3245] group-hover:text-white transition-colors duration-300">
                   {item.icon}
                 </div>
 
-                <h3 className="font-inter medium text-[21px] md:text-[23px] text-[#5f2b38] mb-2 group-hover:text-[#8a3245] transition-colors duration-300">
+                <h3 className="font-inter medium text-[23px] md:text-[25px] text-[#5f2b38] mb-2 group-hover:text-[#8a3245] transition-colors duration-300">
                   {item.title}
                 </h3>
 
-                <p className="text-[13px] font-inter regular md:text-[14px] leading-[1.8] text-[#6f6965] max-w-[510px]">
+                <p className="text-[14px] font-inter regular md:text-[17px] leading-[1.8] text-[#6f6965] max-w-[510px]">
                   {item.body}
                 </p>
               </div>

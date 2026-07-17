@@ -31,7 +31,7 @@ const includes = [
 export default function Reserve() {
   return (
     <section
-      className="bg-[#f7f2ed] py-12 md:py-16 px-5"
+      className="bg-[#f7f2ed] py-12 md:py-16 px-5 scroll-mt-24 lg:scroll-mt-28"
       id="reserve"
     >
       {/* OUTER BORDER CONTAINER */}
@@ -45,7 +45,7 @@ export default function Reserve() {
           </h2>
 
           <h3 className="font-display text-[58px] md:text-[84px] leading-none text-[#8b3044] font-semibold">
-            INR 2500
+            INR 2899
           </h3>
 
           <p className="mt-5 text-[14px] text-[#7d7671]">

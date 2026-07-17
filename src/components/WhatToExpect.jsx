@@ -43,7 +43,7 @@ const steps = [
     num: "07",
     title: "A Memory to Keep",
     body:
-      "You don't leave with thoughts—you leave with a feeling. A beautiful memory from the evening, because exceptional moments deserve to be remembered, not just lived.",
+      "You don't leave with just thoughts- you leave with a feeling. A beautiful memory from the evening, because exceptional moments deserve to be remembered, not just lived. And you'll take home beautifully curated souvenirs from the meetup, along with exciting, useful goodies that let the experience stay with you long after the evening ends.",
   },
 ];
 
@@ -86,7 +86,7 @@ export default function WhatToExpect() {
                     Hors d'oeuvres & Intentional Introductions
                   </h3>
 
-                  <p className="text-[13px] font-inter regular md:text-[14px] leading-[1.8] md:leading-[1.9] font-semibold text-[#635E55] max-w-[620px]">
+                  <p className="text-[13px] font-inter regular md:text-[16px] leading-[1.8] md:leading-[1.9] font-semibold text-[#635E55] max-w-[620px]">
                     We begin with a curated selection of hors d'oeuvres,
                     creating a relaxed space to ease into the evening.
                     Introductions here go beyond the usual—this is your first
@@ -96,7 +96,7 @@ export default function WhatToExpect() {
               </div>
 
               {/* IMAGE ROW */}
-              <div className="flex flex-col md:grid md:grid-cols-[1.25fr_0.9fr_0.9fr] gap-4 md:gap-5 mt-10 md:mt-12 ml-0 md:ml-[50px] max-w-[1080px]">
+              <div className="flex flex-col md:grid md:grid-cols-[1.25fr_1.25fr] gap-4 md:gap-5 mt-10 md:mt-12 ml-0 md:ml-[50px] max-w-[1080px]">
 
                 {/* IMAGE 1 BIGGER */}
                 <div className="h-[300px] md:h-[500px] overflow-hidden group rounded-lg shadow-sm hover:shadow-xl transition-all duration-500">
@@ -107,14 +107,14 @@ export default function WhatToExpect() {
                   />
                 </div>
 
-                {/* IMAGE 2 */}
+                {/* IMAGE 2
                 <div className="h-[300px] md:h-[500px] overflow-hidden group rounded-lg shadow-sm hover:shadow-xl transition-all duration-500">
                   <img
                     src={experienceImg2}
                     alt=""
                     className="w-full h-full object-cover group-hover:scale-110 group-hover:rotate-1 transition-transform duration-700"
                   />
-                </div>
+                </div> */}
 
                 {/* IMAGE 3 */}
                 <div className="h-[300px] md:h-[500px] overflow-hidden group rounded-lg shadow-sm hover:shadow-xl transition-all duration-500">
@@ -140,11 +140,11 @@ export default function WhatToExpect() {
                   </span>
 
                   <div>
-                    <h3 className="font-inter regular text-[22px] md:text-[24px] text-[#521625] leading-none mb-3 md:mb-4 group-hover:translate-x-2 transition-transform duration-300">
+                    <h3 className="font-inter regular text-[22px] md:text-[27px] text-[#521625] leading-none mb-3 md:mb-4 group-hover:translate-x-2 transition-transform duration-300">
                       {item.title}
                     </h3>
 
-                    <p className="text-[13px] md:text-[14px] leading-[1.8] md:leading-[1.9] text-[#635E55] max-w-[620px] whitespace-pre-line">
+                    <p className="text-[13px] md:text-[17px] leading-[1.8] md:leading-[1.9] text-[#635E55] max-w-[620px] whitespace-pre-line">
                       {item.body}
                     </p>
                   </div>
