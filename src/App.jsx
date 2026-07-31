@@ -24,11 +24,11 @@ export default function App() {
       <Intro />
       <Benefits />
       <Guests />
-      <SponsorsSection />
       <WhatToExpect />
       <OurCircles/>
       <Reserve />
       <HostCircleSection />
+      <SponsorsSection />
       <FAQ/>
       <ContactSection/>
       <FinalCTA/>

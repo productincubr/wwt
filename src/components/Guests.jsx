@@ -52,7 +52,6 @@ export default function Guests() {
           </h2>
 
           <p className="max-w-[700px] mx-auto mt-5 text-[#857A76] text-[15px]">
-            P.S. It's not a seminar!
 
             Just a 10-minute power-packed opening talk by a woman of substance to kick-start the conversation and keep it flowing.
           </p>

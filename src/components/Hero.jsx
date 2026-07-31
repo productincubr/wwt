@@ -2,6 +2,7 @@ import heroImg from "../assets/images/Vector-wwt-hero.png";
 import memberBadge from "../assets/images/group-hero-image.png";
 import flower from "../assets/images/flower.png";
 import wave from "../assets/images/hero-layer-image.png";
+import textBoxBg from "../assets/images/two-girls-image.png";
 
 export default function Hero() {
   return (
@@ -9,24 +10,32 @@ export default function Hero() {
       <div className="max-w-[1250px] mx-auto px-5 md:px-8 grid lg:grid-cols-[46%_54%] gap-10 items-center relative z-10">
 
         {/* LEFT PANEL */}
-        <div className="bg-[#ece6e6] rounded-[30px] px-8 py-12 md:px-12 md:py-16 min-h-[500px] md:h-[600px] flex flex-col justify-center relative shadow-[0_10px_40px_rgba(0,0,0,0.02)]">
-          <p className="text-[16px] italic font-inter  text-[#910000] mb-6">
-            Limited to 12 seats per circle
-          </p>
+        <div className="bg-[#ece6e6] rounded-[30px] px-8 py-12 md:px-12 md:py-16 min-h-[500px] md:h-[600px] flex flex-col justify-center relative shadow-[0_10px_40px_rgba(0,0,0,0.02)] overflow-hidden">
+          <img
+            src={textBoxBg}
+            alt=""
+            className="absolute inset-0 w-full h-full object-cover opacity-15 pointer-events-none select-none"
+          />
 
-          <h1 className="regular font-playfair  text-[44px] md:text-[50px] leading-[1.1] text-[#6B2D35]">
-            Where Women Connect
-            <br />
-            Beyond <span className="text-[#C93155]">Small Talk</span>
-          </h1>
+          <div className="relative z-10 flex flex-col">
+            <p className="text-[16px] italic font-inter  text-[#910000] mb-6">
+              Limited to 12 seats per circle
+            </p>
 
-          <p className="mt-6 md:mt-8 text-[16px] md:text-[18px] text-[#635E55] font-inter italic leading-relaxed max-w-[430px]">
-            Join intimate circles designed for meaningful conversations, personal growth, and genuine friendships.
-          </p>
+            <h1 className="regular font-playfair  text-[44px] md:text-[50px] leading-[1.1] text-[#6B2D35]">
+              Where Women Connect
+              <br />
+              Beyond <span className="text-[#C93155]">Small Talk</span>
+            </h1>
 
-          <button className="mt-8 md:mt-10 bg-[#6B2D35] text-white px-8 py-3.5 rounded-[24px] w-fit uppercase tracking-widest text-[12px] font-medium hover:bg-[#522127] hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
-            RESERVE YOUR SEAT
-          </button>
+            <p className="mt-6 md:mt-8 text-[16px] md:text-[18px] text-[#635E55] font-inter italic leading-relaxed max-w-[430px]">
+              Join intimate circles designed for meaningful conversations, personal growth, and genuine friendships.
+            </p>
+
+            <button className="mt-8 md:mt-10 bg-[#6B2D35] text-white px-8 py-3.5 rounded-[24px] w-fit uppercase tracking-widest text-[12px] font-medium hover:bg-[#522127] hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
+              RESERVE YOUR SEAT
+            </button>
+          </div>
         </div>
 
         {/* RIGHT VISUAL */}
