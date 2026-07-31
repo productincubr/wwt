@@ -3,7 +3,7 @@ import waveBottom from "../assets/images/hero-layer-image.png";
 
 export default function FinalCTA() {
   return (
-    <section className="bg-[#f7f2ed] relative overflow-hidden py-16 md:py-12 md:py-16">
+    <section className="bg-[#5D262C] relative overflow-hidden py-16 md:py-12 md:py-16">
 
       {/* TOP WAVE */}
       <img
@@ -23,7 +23,7 @@ export default function FinalCTA() {
       <div className="max-w-[820px] mx-auto px-8 relative z-10">
 
         {/* PARAGRAPH 1 */}
-        <p className="text-[17px] leading-[2] text-[#756e69] mb-10">
+        <p className="text-[17px] leading-[2] text-[#eaeaea] mb-10">
           This isn’t just a meet. It’s an experience you carry with you.
           This is where you don’t have to pretend. Where you don’t have to
           dilute your thoughts. Where you don’t have to fit in—because you
@@ -31,7 +31,7 @@ export default function FinalCTA() {
         </p>
 
         {/* PARAGRAPH 2 */}
-        <p className="text-[17px] leading-[2] text-[#756e69] mb-10">
+        <p className="text-[17px] leading-[2] text-[#eaeaea] mb-10">
           But not everyone is meant for this room. And that’s what makes
           it powerful. Every seat at Women Who Talk is intentional.
           Every voice in the circle matters. If you’ve ever left a gathering
@@ -41,7 +41,7 @@ export default function FinalCTA() {
         </p>
 
         {/* PARAGRAPH 3 */}
-        <p className="text-[17px] leading-[2] text-[#756e69]">
+        <p className="text-[17px] leading-[2] text-[#eaeaea]">
           But you have to choose it. Take a moment. Reflect. Tell us who you
           are, what you think, and what you want to explore. Because at WWT,
           your presence isn't just attendance— it’s contribution. Apply to join
@@ -53,7 +53,7 @@ export default function FinalCTA() {
         <div className="flex justify-center mt-16">
           <a
             href="#"
-            className="font-display text-[44px] md:text-[52px] text-[#7b2c40] border-b border-[#7b2c40] pb-1 hover:opacity-70 transition-all duration-300"
+            className="font-display text-[44px] md:text-[52px] text-[#eaeaea] border-b border-[#eaeaea] pb-1 hover:opacity-70 transition-all duration-300"
           >
             Apply to Join the Circle
           </a>

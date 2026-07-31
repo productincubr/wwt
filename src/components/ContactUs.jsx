@@ -9,6 +9,7 @@ import {
     Heart,
     Quote,
   } from "lucide-react";
+  import contactImg from "../assets/images/contactpageImg.png";
   
   export default function ContactSection() {
     const reachItems = [
@@ -42,8 +43,8 @@ import {
   
           {/* Main Card */}
   
-          <div className="bg-[#FCF8F7] rounded-[28px] p-8 lg:p-12 border border-[#F0E8E6]">
-            <div className="grid lg:grid-cols-[1.05fr_0.95fr] gap-12">
+          <div className="bg-[#b0aeae] rounded-[28px] p-8 lg:p-12 border border-[#F0E8E6]">
+            <div className="grid lg:grid-cols-[1fr_0.85fr_0.4fr] gap-10">
               {/* LEFT FORM */}
   
               <div>
@@ -139,14 +140,14 @@ import {
   
               {/* RIGHT CONTENT */}
   
-              <div className="lg:pl-10">
-                <h3 className="text-[#7A4B55] text-[42px] leading-none font-serif">
+              <div className="lg:pl-6">
+                <h3 className="text-[#5b3840] text-[42px] leading-none font-serif">
                   Let's Start a
                   <br />
                   Conversation
                 </h3>
   
-                <p className="mt-4 italic text-[#C48389] text-[24px] font-serif leading-8">
+                <p className="mt-4 italic text-[#c0787f] text-[24px] font-serif leading-8">
                   Every meaningful
                   <br />
                   connection begins with
@@ -165,11 +166,11 @@ import {
                         <div className="w-5 h-5 rounded-full bg-[#F8E6E8] flex items-center justify-center mt-[2px]">
                           <Check
                             size={12}
-                            className="text-[#C68B92]"
+                            className="text-[#000000]"
                           />
                         </div>
   
-                        <span className="text-[#8A8280]">
+                        <span className="text-[#000000]">
                           {item}
                         </span>
                       </div>
@@ -181,8 +182,8 @@ import {
   
                 <div className="mt-10 space-y-6">
                   <div className="flex gap-4">
-                    <div className="w-10 h-10 rounded-full border border-[#ECDDDD] flex items-center justify-center">
-                      <Mail size={16} className="text-[#C68B92]" />
+                    <div className="w-10 h-10 rounded-full border border-[#525050] flex items-center justify-center">
+                      <Mail size={16} className="text-[#3e2e30]" />
                     </div>
   
                     <div>
@@ -190,15 +191,15 @@ import {
                         Email:
                       </div>
   
-                      <div className="text-[#8A8280]">
+                      <div className="text-[#222222]">
                         hello@womenwhotalk.com
                       </div>
                     </div>
                   </div>
   
                   <div className="flex gap-4">
-                    <div className="w-10 h-10 rounded-full border border-[#ECDDDD] flex items-center justify-center">
-                      <Clock3 size={16} className="text-[#C68B92]" />
+                    <div className="w-10 h-10 rounded-full border border-[#525050] flex items-center justify-center">
+                      <Clock3 size={16} className="text-[#3e2e30]" />
                     </div>
   
                     <div>
@@ -206,29 +207,39 @@ import {
                         Response Time:
                       </div>
   
-                      <div className="text-[#8A8280]">
+                      <div className="text-[#2f2e2e]">
                         Within 24–48 hours
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
+
+              {/* IMAGE */}
+
+              <div className="hidden lg:block">
+                <img
+                  src={contactImg}
+                  alt="Woman sitting in a garden at sunset"
+                  className="w-full h-full max-h-[560px] object-cover rounded-[24px]"
+                />
+              </div>
             </div>
           </div>
-  
+
           {/* Bottom Quote Card */}
   
-          <div className="mt-8 bg-[#FCF8F7] border border-[#F0E8E6] rounded-[24px] px-8 py-8">
+          <div className="mt-8 bg-[#b0aeae] border border-[#F0E8E6] rounded-[24px] px-8 py-8">
             <div className="grid md:grid-cols-[1.2fr_1fr_auto] items-center gap-6">
               <div className="flex gap-4">
                 <Quote className="text-[#C68B92]" />
   
-                <p className="text-[32px] font-serif italic text-[#7A4B55] leading-none">
+                <p className="text-[32px] font-serif italic text-[#321f23] leading-none">
                   Great conversations start with someone reaching out.
                 </p>
               </div>
   
-              <p className="text-[#8A8280]">
+              <p className="text-[#dedbda]">
                 We can't wait to connect with you and help you be a
                 part of something truly meaningful.
               </p>

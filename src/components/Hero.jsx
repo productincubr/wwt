@@ -3,6 +3,7 @@ import memberBadge from "../assets/images/group-hero-image.png";
 import flower from "../assets/images/flower.png";
 import wave from "../assets/images/hero-layer-image.png";
 import textBoxBg from "../assets/images/two-girls-image.png";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -32,9 +33,9 @@ export default function Hero() {
               Join intimate circles designed for meaningful conversations, personal growth, and genuine friendships.
             </p>
 
-            <button className="mt-8 md:mt-10 bg-[#6B2D35] text-white px-8 py-3.5 rounded-[24px] w-fit uppercase tracking-widest text-[12px] font-medium hover:bg-[#522127] hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
+            <a href="#reserve" className="mt-8 md:mt-10 bg-[#6B2D35] text-white px-8 py-3.5 rounded-[24px] w-fit uppercase tracking-widest text-[12px] font-medium hover:bg-[#522127] hover:-translate-y-1 hover:shadow-lg transition-all duration-300">
               RESERVE YOUR SEAT
-            </button>
+            </a>
           </div>
         </div>
 

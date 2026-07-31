@@ -26,9 +26,9 @@ export default function App() {
       <Guests />
       <WhatToExpect />
       <OurCircles/>
+      <SponsorsSection />
       <Reserve />
       <HostCircleSection />
-      <SponsorsSection />
       <FAQ/>
       <ContactSection/>
       <FinalCTA/>

@@ -116,14 +116,7 @@ export default function WhatToExpect() {
                   />
                 </div> */}
 
-                {/* IMAGE 3 - narrow, shown in full without cropping/over-zoom */}
-                <div className="shrink-0 mx-auto md:mx-0 aspect-[290/724] h-[300px] md:h-[550px] overflow-hidden group rounded-lg shadow-sm hover:shadow-xl transition-all duration-500">
-                  <img
-                    src={experienceImg3}
-                    alt=""
-                    className="w-full h-full object-cover group-hover:scale-110 group-hover:-rotate-1 transition-transform duration-700"
-                  />
-                </div>
+               
 
                 {/* IMAGE 4 - fills remaining space, women in conversation */}
                 <div className="flex-1 h-[300px] md:h-[550px] overflow-hidden group rounded-lg shadow-sm hover:shadow-xl transition-all duration-500">
@@ -131,6 +124,15 @@ export default function WhatToExpect() {
                     src="https://images.unsplash.com/photo-1758274252457-18a23285169c?fm=jpg&q=80&w=1200&auto=format&fit=crop"
                     alt="Women talking at an outdoor cafe"
                     className="w-full h-full object-cover group-hover:scale-110 group-hover:rotate-1 transition-transform duration-700"
+                  />
+                </div>
+
+                {/* IMAGE 3 - narrow, shown in full without cropping/over-zoom */}
+                <div className="shrink-0 mx-auto md:mx-0 aspect-[290/724] h-[300px] md:h-[550px] overflow-hidden group rounded-lg shadow-sm hover:shadow-xl transition-all duration-500">
+                  <img
+                    src={experienceImg3}
+                    alt=""
+                    className="w-full h-full object-cover group-hover:scale-110 group-hover:-rotate-1 transition-transform duration-700"
                   />
                 </div>
               </div>
