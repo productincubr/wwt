@@ -97,7 +97,7 @@ export default function Intro() {
           <img
             src={statCard}
             alt="stats card"
-            className="absolute -bottom-[20px] lg:-bottom-[180px] lg:left-[100px] w-[140px] md:w-[180px] lg:w-[210px] z-20 hover:-translate-y-2 transition-transform duration-500 shadow-xl rounded-xl"
+            className="absolute -bottom-[20px] lg:-bottom-[180px] lg:left-[100px] w-[260px] md:w-[180px] lg:w-[210px] z-20 hover:-translate-y-2 transition-transform duration-500 shadow-xl rounded-xl"
           />
         </div>
       </div>
