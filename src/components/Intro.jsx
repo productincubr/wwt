@@ -1,7 +1,15 @@
 import sideWomen from "../assets/images/two-girls-image.png";
-import statCard from "../assets/images/two-girls-image2.png";
 import wave  from "../assets/images/hero-layer-image.png";
 import { FiFeather, FiUsers, FiHeart, FiMaximize, FiCheckSquare } from "react-icons/fi";
+import { FaRegComments } from "react-icons/fa";
+import { GiLotus } from "react-icons/gi";
+
+const statItems = [
+  { icon: <FiUsers size={26} />, title: "12", lines: ["Women", "Per Circle"] },
+  { icon: <FaRegComments size={24} />, title: "Deep", lines: ["Conversations", "That Stay"] },
+  { icon: <FiHeart size={24} />, title: "Trusted", lines: ["Close, Safe &", "Respectful Space"] },
+  { icon: <GiLotus size={26} />, title: "Meaningful", lines: ["Connections That", "Last Beyond the Table"] },
+];
 
 const pillars = [
   {
@@ -82,10 +90,10 @@ export default function Intro() {
         </div>
 
         {/* RIGHT VISUAL */}
-        <div className="relative h-[600px] lg:h-[850px] w-full flex justify-center mt-10 lg:mt-0">
+        <div className="relative w-full flex flex-col items-center mt-10 lg:mt-0">
 
           {/* Main girls image */}
-          <div className="absolute top-0 lg:top-10 left-0 lg:left-0 w-full lg:w-[82%] h-[550px] lg:h-[920px] rounded-[28px] overflow-hidden group">
+          <div className="w-full lg:w-[82%] h-[550px] lg:h-[900px] rounded-[28px] overflow-hidden group">
             <img
               src={sideWomen}
               alt="Women Talking"
@@ -93,12 +101,23 @@ export default function Intro() {
             />
           </div>
 
-          {/* Red box image */}
-          <img
-            src={statCard}
-            alt="stats card"
-            className="absolute -bottom-[20px] lg:-bottom-[180px] lg:left-[100px] w-[260px] md:w-[180px] lg:w-[210px] z-20 hover:-translate-y-2 transition-transform duration-500 shadow-xl rounded-xl"
-          />
+          {/* Stats card */}
+          <div className="relative mt-40 w-[260px] md:w-[220px] lg:w-[320px] bg-[#5c1f30] rounded-3xl shadow-xl p-6 md:p-5 lg:p-7 grid grid-cols-2 gap-x-4 gap-y-6 z-20 hover:-translate-y-2 transition-transform duration-500">
+            <div className="absolute left-1/2 top-6 bottom-6 w-px bg-white/20" />
+            <div className="absolute top-1/2 left-6 right-6 h-px bg-white/20" />
+
+            {statItems.map((item, i) => (
+              <div key={i} className="flex flex-col items-center text-center text-white">
+                <div className="mb-2">{item.icon}</div>
+                <div className="font-inter font-semibold text-base md:text-[15px] lg:text-lg">{item.title}</div>
+                <div className="text-[11px] md:text-[10px] lg:text-xs font-inter text-white/80 leading-snug mt-1">
+                  {item.lines.map((line, j) => (
+                    <span key={j} className="block">{line}</span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

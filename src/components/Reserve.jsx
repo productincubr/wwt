@@ -58,7 +58,7 @@ export default function Reserve() {
 
         {/* EXPERIENCE TITLE */}
         <div className="text-center mb-10 md:mb-12">
-          <p className="text-[13px] tracking-[2px] uppercase text-[#8c5d68] font-medium">
+          <p className="text-[20px] tracking-[2px] uppercase text-[#8c5d68] font-medium">
             Your Experience Includes:
           </p>
         </div>
@@ -73,16 +73,16 @@ export default function Reserve() {
             >
 
               {/* ICON */}
-              <div className="text-[#8a3245] text-[18px] mt-[2px] opacity-0 overflow-hidden w-0 h-0 hidden group-hover:scale-110 group-hover:rotate-12 transition-transform duration-300">
+              <div className="text-[#8a3245] text-[20px] mt-[2px] opacity-0 overflow-hidden w-0 h-0 hidden group-hover:scale-110 group-hover:rotate-12 transition-transform duration-300">
               </div>
 
               {/* TEXT */}
               <div>
-                <h4 className="text-[15px] leading-[1.7] text-[#5c4d48] font-medium group-hover:text-[#8a3245] transition-colors duration-300">
+                <h4 className="text-[20px] leading-[1.7] text-[#5c4d48] font-medium group-hover:text-[#8a3245] transition-colors duration-300">
                   {item.title}
                 </h4>
 
-                <p className="text-[14px] leading-[1.9] text-[#7b746f] mt-1">
+                <p className="text-[16px] leading-[1.9] text-[#7b746f] mt-1">
                   {item.body}
                 </p>
               </div>

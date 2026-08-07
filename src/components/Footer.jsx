@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-[#EFE7DC] border-t border-[#e7ddd7] py-6 md:py-10">
+    <footer className="bg-[#EFE7DC] border-t border-[#e7ddd7] py-6 md:py-16">
       <div className="max-w-[1280px] mx-auto px-8 flex flex-col md:flex-row items-center justify-between gap-6 md:gap-0 text-center md:text-left">
 
         {/* LEFT LOGO */}
@@ -21,28 +21,28 @@ export default function Footer() {
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-8">
           <a
             href="#"
-            className="text-[13px] text-[#5f5752] hover:text-[#7b2c40] transition-all duration-300"
+            className="text-[15px] text-[#5f5752] hover:text-[#7b2c40] transition-all duration-300"
           >
             Privacy
           </a>
 
           <a
             href="#"
-            className="text-[13px] text-[#5f5752] hover:text-[#7b2c40] transition-all duration-300"
+            className="text-[15px] text-[#5f5752] hover:text-[#7b2c40] transition-all duration-300"
           >
             Terms
           </a>
 
           <a
             href="#"
-            className="text-[13px] text-[#5f5752] hover:text-[#7b2c40] transition-all duration-300"
+            className="text-[15px] text-[#5f5752] hover:text-[#7b2c40] transition-all duration-300"
           >
             Membership Policy
           </a>
 
           <a
             href="#"
-            className="text-[13px] text-[#5f5752] hover:text-[#7b2c40] transition-all duration-300"
+            className="text-[15px] text-[#5f5752] hover:text-[#7b2c40] transition-all duration-300"
           >
             Contact
           </a>

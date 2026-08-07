@@ -54,18 +54,18 @@ const benefits = [
 export default function Benefits() {
   return (
     <section
-      className="bg-[#f7f2ed] py-12 md:py-16 overflow-hidden"
+      className="bg-[#f7f2ed] py-12 md:py-16 overflow-hidden lg:mt-[-40px]"
       id="benefits"
     >
       <div className="max-w-[1220px] mx-auto px-8">
 
         {/* TOP HEADING */}
         <div className="text-center mb-16 font-playfair regular">
-          <span className="text-[20px] text-[#521625] tracking-wide lowercase">
+          {/* <span className="text-[20px] text-[#521625] tracking-wide lowercase">
             benefits
-          </span>
+          </span> */}
 
-          <h2 className="mt-3 font-display text-[56px] md:text-[64px] leading-none text-[#6f1d30] font-light">
+          <h2 className="mt-3 font-display text-[56px] md:text-[68px] leading-none text-[#6f1d30] font-light">
             Why join Women Who Talk?
           </h2>
         </div>
