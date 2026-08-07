@@ -28,10 +28,10 @@ export default function FAQ() {
       <div className="max-w-[980px] mx-auto px-6">
 
         {/* FAQ BOX */}
-        <div className="px-14 py-16">
+        <div className="px-14 py-10">
 
           {/* HEADING */}
-          <h2 className="text-center font-playfair regular text-[56px] md:text-[60px] text-[#521625] leading-none mb-14">
+          <h2 className="text-center font-playfair regular text-[53px] md:text-[60px] text-[#521625] leading-none mb-14">
             FAQ – Women Who Talk
           </h2>
 

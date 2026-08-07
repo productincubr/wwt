@@ -45,7 +45,7 @@ export default function OurCircles() {
     return (
         <section
             id="circles"
-            className="bg-[#F8F2F0] py-24 px-10 lg:mt-[-40px]"
+            className="bg-[#F8F2F0] py-24 px-10 lg:mt-[-40px] mt-[-40px]"
         >
             <div className="max-w-[1400px] mx-auto px-6">
                 {/* Header */}
