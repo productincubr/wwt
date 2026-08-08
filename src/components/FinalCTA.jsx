@@ -53,7 +53,7 @@ export default function FinalCTA() {
         <div className="flex justify-center mt-16">
           <a
             href="#"
-            className="font-display text-[44px] md:text-[52px] text-[#eaeaea] border-b border-[#eaeaea] pb-1 hover:opacity-70 transition-all duration-300"
+            className="font-display text-[33px] md:text-[52px] text-[#eaeaea] border-b border-[#eaeaea] pb-1 hover:opacity-70 transition-all duration-300"
           >
             Apply to Join the Circle
           </a>

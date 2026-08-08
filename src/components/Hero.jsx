@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
-    <section className="bg-[#f7f2ed] pt-32 pb-20 overflow-visible relative">
+    <section className="bg-[#f7f2ed] pt-28 lg:pt-32 pb-20 overflow-visible relative">
       <div className="max-w-[1250px] mx-auto px-5 md:px-8 grid lg:grid-cols-[46%_54%] gap-10 items-center relative z-10">
 
         {/* LEFT PANEL */}

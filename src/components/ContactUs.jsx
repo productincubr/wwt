@@ -30,7 +30,7 @@ import {
               Contact Us
             </p>
   
-            <h2 className="mt-4 text-[#7A4B55] text-[58px] leading-none font-serif">
+            <h2 className="mt-4 text-[#7A4B55] text-[47px] md:text-[58px] leading-none font-serif">
               We'd Love to Hear From You
             </h2>
   

@@ -138,12 +138,14 @@ export default function OurCircles() {
             rounded-[24px]
             border
             border-[#EFE5E2]
-            px-8
-            py-7
+            px-5
+            py-6
+            sm:px-8
+            sm:py-7
           "
                 >
-                    <div className="flex flex-col lg:flex-row justify-between items-center gap-6">
-                        <div className="flex items-center gap-5">
+                    <div className="flex flex-col lg:flex-row justify-between items-center gap-6 text-center lg:text-left">
+                        <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4 sm:gap-5">
                             <div className="w-14 h-14 rounded-full bg-[#F8EAEA] flex items-center justify-center">
                                 <Users
                                     size={22}
@@ -151,19 +153,19 @@ export default function OurCircles() {
                                 />
                             </div>
 
-                            <div className="flex items-center gap-4">
-                                <span className="text-[42px] font-playfair font-semibold text-[#5D2A37]">
+                            <div className="flex flex-col sm:flex-row items-center sm:items-center gap-1 sm:gap-4">
+                                <span className="text-[34px] sm:text-[42px] font-playfair font-semibold text-[#5D2A37] leading-none">
                                     250+
                                 </span>
 
-                                <p className="max-w-[300px] text-[#8A817D] text-[14px]">
+                                <p className="max-w-[300px] text-[#8A817D] text-[13px] sm:text-[14px] leading-6">
                                     women have already joined meaningful
                                     conversations across our circles.
                                 </p>
                             </div>
                         </div>
 
-                        <p className="font-playfair italic medium text-[32px] text-[#5D2A37]">
+                        <p className="font-playfair italic medium text-[22px] sm:text-[32px] text-[#5D2A37] leading-tight max-w-[20ch] sm:max-w-none">
                             Different stories. One sisterhood. ♡
                         </p>
                     </div>
