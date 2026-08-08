@@ -42,7 +42,7 @@ const pillars = [
 
 export default function Intro() {
   return (
-    <section className="bg-[#f7f2ed] py-12 md:py-16 overflow-hidden relative scroll-mt-24 lg:scroll-mt-28" id="about">
+    <section className="bg-[#f7f2ed] py-16 md:py-16  overflow-hidden relative scroll-mt-24 lg:scroll-mt-28" id="about">
       <div className="max-w-[1250px] mx-auto px-5 md:px-9 grid lg:grid-cols-[57%_43%] gap-12 md:gap-6 items-start">
 
         {/* LEFT CONTENT */}

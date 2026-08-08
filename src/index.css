@@ -52,6 +52,28 @@
   }
 }
 
+.experience-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #d4c2bc transparent;
+}
+
+.experience-scroll::-webkit-scrollbar {
+  height: 8px;
+}
+
+.experience-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.experience-scroll::-webkit-scrollbar-thumb {
+  background-color: #d4c2bc;
+  border-radius: 9999px;
+}
+
+.experience-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #521625;
+}
+
 @keyframes fadeUp {
   from {
     opacity: 0;

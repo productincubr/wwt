@@ -37,7 +37,7 @@ const speakers = [
 
 export default function Guests() {
   return (
-    <section className="bg-[#FDF8F6] py-20 overflow-hidden">
+    <section className="bg-[#FDF8F6] py-16 md:py-20 overflow-hidden">
       <div className="max-w-[1180px] mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Heading */}
@@ -47,7 +47,7 @@ export default function Guests() {
             Meet Our
           </span>
 
-          <h2 className="mt-4 text-[58px] font-playfair regular leading-none font-serif text-[#5A1E2A]">
+          <h2 className="mt-4 text-[40px] md:text-[58px] font-playfair regular leading-none text-[#5A1E2A]">
             Guest Speakers
           </h2>
 

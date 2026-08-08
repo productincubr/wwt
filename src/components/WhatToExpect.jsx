@@ -2,6 +2,31 @@ import experienceImg1 from "../assets/images/forth-section1.png";
 import experienceImg2 from "../assets/images/forth-section2.png";
 import experienceImg3 from "../assets/images/forth-section3.png";
 
+const stepOneImages = [
+  { src: experienceImg1, alt: "", rotate: "group-hover:-rotate-1" },
+  {
+    src: "https://images.unsplash.com/photo-1758274252457-18a23285169c?fm=jpg&q=80&w=1200&auto=format&fit=crop",
+    alt: "Women talking at an outdoor cafe",
+    rotate: "group-hover:rotate-1",
+  },
+  { src: experienceImg3, alt: "", rotate: "group-hover:-rotate-1" },
+  {
+    src: "https://images.unsplash.com/photo-1519671282429-b44660ead0a7?fm=jpg&q=80&w=1200&auto=format&fit=crop",
+    alt: "Friends gathered around a wine and cheese spread",
+    rotate: "group-hover:rotate-1",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1529832588601-c01e066263a8?fm=jpg&q=80&w=1200&auto=format&fit=crop",
+    alt: "Women celebrating together at an outdoor garden party",
+    rotate: "group-hover:-rotate-1",
+  },
+  {
+    src: "https://images.unsplash.com/photo-1681641095814-58c7e8d9e1f7?fm=jpg&q=80&w=1200&auto=format&fit=crop",
+    alt: "Women laughing together over drinks",
+    rotate: "group-hover:rotate-1",
+  },
+];
+
 const steps = [
   {
     num: "01",
@@ -50,16 +75,16 @@ const steps = [
 export default function WhatToExpect() {
   return (
     <section
-      className="bg-[#f7f2ed] py-12 md:py-16 overflow-hidden"
+      className="bg-[#f7f2ed] py-16 md:py-20 overflow-hidden"
       id="experience"
     >
       <div className="max-w-[1220px] mx-auto px-5 md:px-8">
 
         {/* TOP HEADING */}
         <div className="text-center mb-16 md:mb-20">
-          <p className="text-[30px] font-playfair regular md:text-[36px] text-[#521625] mb-3">
+          <h2 className="text-[40px] font-playfair regular md:text-[58px] leading-none text-[#521625] mb-3">
             What to Expect at a WWT Circle Meet
-          </p>
+          </h2>
 
           <p className="text-[16px] md:text-[18px] font-inter regular text-[#635E55] max-w-[580px] mx-auto leading-[1.8] md:leading-[1.9] font-bold">
             Every Women Who Talk gathering is thoughtfully designed to be immersive,
@@ -95,46 +120,21 @@ export default function WhatToExpect() {
                 </div>
               </div>
 
-              {/* IMAGE ROW */}
-              <div className="flex flex-col md:flex-row gap-4 md:gap-5 mt-10 md:mt-12 ml-0 md:ml-[50px] max-w-[1080px]">
-
-                {/* IMAGE 1 BIGGER - dominant left image, shown in full without cropping/over-zoom */}
-                <div className="shrink-0 mx-auto md:mx-0 aspect-[480/724] h-[300px] md:h-[550px] overflow-hidden group rounded-lg shadow-sm hover:shadow-xl transition-all duration-500">
-                  <img
-                    src={experienceImg1}
-                    alt=""
-                    className="w-full h-full object-cover group-hover:scale-110 group-hover:-rotate-1 transition-transform duration-700"
-                  />
-                </div>
-
-                {/* IMAGE 2
-                <div className="h-[300px] md:h-[500px] overflow-hidden group rounded-lg shadow-sm hover:shadow-xl transition-all duration-500">
-                  <img
-                    src={experienceImg2}
-                    alt=""
-                    className="w-full h-full object-cover group-hover:scale-110 group-hover:rotate-1 transition-transform duration-700"
-                  />
-                </div> */}
-
-               
-
-                {/* IMAGE 4 - fills remaining space, women in conversation */}
-                <div className="flex-1 h-[300px] md:h-[550px] overflow-hidden group rounded-lg shadow-sm hover:shadow-xl transition-all duration-500">
-                  <img
-                    src="https://images.unsplash.com/photo-1758274252457-18a23285169c?fm=jpg&q=80&w=1200&auto=format&fit=crop"
-                    alt="Women talking at an outdoor cafe"
-                    className="w-full h-full object-cover group-hover:scale-110 group-hover:rotate-1 transition-transform duration-700"
-                  />
-                </div>
-
-                {/* IMAGE 3 - narrow, shown in full without cropping/over-zoom */}
-                <div className="shrink-0 mx-auto md:mx-0 aspect-[290/724] h-[300px] md:h-[550px] overflow-hidden group rounded-lg shadow-sm hover:shadow-xl transition-all duration-500">
-                  <img
-                    src={experienceImg3}
-                    alt=""
-                    className="w-full h-full object-cover group-hover:scale-110 group-hover:-rotate-1 transition-transform duration-700"
-                  />
-                </div>
+              {/* IMAGE ROW - fixed-width cards in a horizontally scrollable strip */}
+              <div className="experience-scroll flex flex-row flex-nowrap gap-4 md:gap-5 mt-10 md:mt-12 ml-0 md:ml-[50px] max-w-full md:max-w-[1080px] overflow-x-auto snap-x snap-mandatory pb-5">
+                {stepOneImages.map((image, index) => (
+                  <div
+                    key={index}
+                    className="shrink-0 snap-start aspect-[480/724] h-[300px] md:h-[550px] overflow-hidden group rounded-lg shadow-sm hover:shadow-xl transition-all duration-500"
+                  >
+                    <img
+                      src={image.src}
+                      alt={image.alt}
+                      loading="lazy"
+                      className={`w-full h-full object-cover group-hover:scale-110 ${image.rotate} transition-transform duration-700`}
+                    />
+                  </div>
+                ))}
               </div>
             </div>
 

@@ -6,7 +6,7 @@ export default function PartnersSponsorsSection() {
     <section className="bg-[#FDF8F6] py-20 px-6">
       <div className="max-w-[1100px] mx-auto text-center">
         {/* Headers */}
-        <span className="uppercase tracking-[4px] text-[#A87676] text-xs font-semibold block mb-4">
+        <span className="uppercase tracking-[4px] text-[#A87676] text-lg font-semibold block mb-4">
           Trusted By
         </span>
         <h2 className="text-[48px] md:text-[56px] leading-tight regular font-playfair text-[#6B2D35] mb-6">
@@ -63,7 +63,7 @@ export default function PartnersSponsorsSection() {
 
           {/* Footer Line & Text */}
           <div className="h-[1px] bg-[#F4EBE9] w-full mb-6"></div>
-          <p className="text-left text-[#C78382] italic text-sm">
+          <p className="text-left text-[#C78382] italic text-[14px]">
             And many more wonderful partners...
           </p>
         </div>

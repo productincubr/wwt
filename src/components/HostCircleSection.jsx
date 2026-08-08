@@ -36,7 +36,7 @@ const features = [
 
 export default function HostCircleSection() {
   return (
-    <section className="bg-[#F8F2F0] py-24 lg:py-24 overflow-hidden">
+    <section className="bg-[#F8F2F0] py-24 lg:py-20 overflow-hidden">
       <div className="max-w-[1320px] mx-auto px-6 md:px-10 lg:px-16">
         <div className="grid lg:grid-cols-[0.95fr_1.05fr] gap-16 xl:gap-24 items-center">
           {/* LEFT SIDE */}
@@ -45,7 +45,7 @@ export default function HostCircleSection() {
 
             {/* Top Label */}
             <div className="flex items-center gap-4 mb-5">
-              <span className="uppercase tracking-[3px] text-[11px] font-semibold text-[#8D6670]">
+              <span className="uppercase tracking-[3px] text-[13px] font-semibold text-[#8D6670]">
                 Join Our Team
               </span>
 
@@ -93,11 +93,11 @@ export default function HostCircleSection() {
                     </div>
 
                     <div>
-                      <h3 className="font-semibold text-[#7B4450] text-[16px]">
+                      <h3 className="font-semibold text-[#7B4450] text-[18px]">
                         {item.title}
                       </h3>
 
-                      <p className="mt-1 text-[#857D79] text-[13px] leading-6 max-w-[360px]">
+                      <p className="mt-1 text-[#857D79] text-[15px] leading-6 max-w-[360px]">
                         {item.desc}
                       </p>
                     </div>
@@ -140,7 +140,7 @@ export default function HostCircleSection() {
             <img
               src={rightImg}
               alt="Host Circle"
-              className="w-full h-[760px] object-cover"
+              className="w-full h-[780px] object-cover"
             />
 
             {/* Floating Card */}
@@ -184,7 +184,7 @@ export default function HostCircleSection() {
                     className="text-[#8D6670] shrink-0 mt-1"
                   />
 
-                  <p className="text-[11px] text-[#807875] leading-5 max-w-[300px]">
+                  <p className="text-[12px] text-[#807875] leading-5 max-w-[300px]">
                     Join a global movement of women creating
                     real connections and lasting change.
                   </p>

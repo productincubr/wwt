@@ -26,7 +26,7 @@ import {
           {/* Header */}
   
           <div className="text-center mb-16">
-            <p className="uppercase tracking-[4px] text-[12px] text-[#C98C93] font-semibold">
+            <p className="uppercase tracking-[4px] text-[13px] text-[#C98C93] font-semibold">
               Contact Us
             </p>
   

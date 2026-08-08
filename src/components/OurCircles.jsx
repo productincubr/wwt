@@ -54,7 +54,7 @@ export default function OurCircles() {
                     <div className="flex items-center justify-center gap-4 mb-3">
                         <span className="w-[70px] h-[1px] bg-[#E7D9D6]" />
 
-                        <span className="uppercase tracking-[3px] text-[10px] text-[#C4A2A7] font-medium">
+                        <span className="uppercase tracking-[3px] text-[10px] text-[#C4A2A7] font-medium text-lg">
                             Memories From
                         </span>
 
@@ -121,7 +121,7 @@ export default function OurCircles() {
                                     </span>
                                 </div>
 
-                                <span className="text-xs text-[#9C8F8A]">
+                                <span className="text-sm text-[#9C8F8A]">
                                     Memories made
                                 </span>
                             </div>
@@ -156,7 +156,7 @@ export default function OurCircles() {
                                     250+
                                 </span>
 
-                                <p className="max-w-[300px] text-[#8A817D] text-sm">
+                                <p className="max-w-[300px] text-[#8A817D] text-[14px]">
                                     women have already joined meaningful
                                     conversations across our circles.
                                 </p>
