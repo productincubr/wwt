@@ -61,7 +61,7 @@ export default function OurCircles() {
                         <span className="w-[70px] h-[1px] bg-[#E7D9D6]" />
                     </div>
 
-                    <h2 className="mt-2 text-[58px] text-[#5D2A37] font-playfair regular">
+                    <h2 className="mt-2 text-[44px] sm:text-[52px] md:text-[58px] leading-none tracking-[-0.02em] text-[#5D2A37] font-playfair regular">
                         Our Circles ♡
                     </h2>
 
